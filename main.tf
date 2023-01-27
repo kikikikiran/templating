@@ -8,7 +8,7 @@ template "aws_ec2_instance" {
 }
 
 module "aws_instance" {
-  source = "template.aws_ec2_instance"
+  source = "template_file.aws_ec2_instance.tpl"
 
   ami           = "ami-0aa7d40eeae50c9a9"
   instance_type = "t2.micro"
