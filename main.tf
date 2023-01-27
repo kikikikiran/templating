@@ -7,7 +7,7 @@ template "aws_ec2_instance" {
   subnet_id     = var.subnet_id
 }
 
-module "aws_instance" {
+module "example_instance" {
   source = "template_file.aws_ec2_instance.tpl"
 
   ami           = "ami-0aa7d40eeae50c9a9"
