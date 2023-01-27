@@ -1,4 +1,4 @@
-ami = "ami-0ff8a91507f77f867"
+ami = "ami-0aa7d40eeae50c9a9"
 instance_type = "t2.micro"
-key_name = "example_key"
-subnet_id = "subnet-abcdefgh"
+key_name = "hpe"
+subnet_id = "subnet-02f92f936462845ec"
